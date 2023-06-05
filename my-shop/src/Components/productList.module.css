@@ -1,0 +1,30 @@
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.product {
+  margin: 40px;
+}
+.img {
+  width: 200px;
+  height: 200px;
+}
+.discription {
+  font-weight: bold;
+
+}
+
+.addbtn {
+  border-radius: 12px;
+  border: 1px solid #2a8387;
+  background-color: white;
+  cursor: pointer;
+  width: auto;
+  height: 40px;
+}
+.addbtn:hover {
+  background-color: rgb(140, 231, 140);
+}

@@ -1,0 +1,33 @@
+.header {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  text-align: center;
+  -webkit-background-clip: text;
+}
+.total {
+  text-align: center;
+}
+.checkout {
+  text-align: center;
+  margin: 0 auto;
+}
+.checkout button {
+  margin: 5px;
+
+  border-radius: 12px;
+  border: 1px solid #2a8387;
+  background-color: rgb(182, 163, 163);
+  cursor: pointer;
+  width: auto;
+  height: 40px;
+}
+
+button:hover {
+  background-color: rgb(140, 231, 140);
+}
+.empty {
+  text-align: center;
+}

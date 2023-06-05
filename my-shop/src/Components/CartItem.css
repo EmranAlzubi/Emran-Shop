@@ -1,0 +1,24 @@
+.item-card {
+  text-align: center;
+  background-color: #edebfb;
+  width: 50%;
+  height: 150px;
+  margin: 20px auto;
+  border-radius: 12px;
+}
+
+.item-content {
+  display: flex;
+  justify-content: last baseline;
+}
+
+.img {
+  margin: 25px;
+  height: 100px;
+  display: inline-block;
+}
+.item-control input {
+  text-align: center;
+  width: 40px;
+  margin: auto 2px;
+}
