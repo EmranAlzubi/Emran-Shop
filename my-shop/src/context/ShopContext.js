@@ -47,13 +47,22 @@ const ShopContextProvider = (props) => {
     }
     return totalamount;
   };
+  const itemsSum = () => {
+    let totalamount = Object.values(CartItems);
 
+    let sum = totalamount.reduce(function (a, b) {
+      return a + b;
+    });
+
+    return sum;
+  };
   const value = {
     CartItems,
     addtocart,
     RemoveFromCart,
     updateiteminput,
     totalprice,
+    itemsSum,
   };
 
   return (

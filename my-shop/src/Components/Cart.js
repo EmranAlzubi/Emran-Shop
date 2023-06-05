@@ -6,7 +6,7 @@ import CartItem from "./CartItem";
 import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
-  const { CartItems, totalprice } = useContext(ShopContext);
+  const { CartItems, totalprice,  } = useContext(ShopContext);
   const totalamount = totalprice();
   const navigate = useNavigate();
 
